@@ -1,4 +1,4 @@
-# 🌱 Eco Quiz
+# Eco Quiz
 
 O **Eco Quiz** é um jogo educativo desenvolvido em **HTML, CSS e JavaScript**, que combina um **quiz sobre meio ambiente** com um **desafio interativo de reciclagem**.
 
@@ -6,23 +6,22 @@ O objetivo do jogo é ensinar conceitos ambientais de forma divertida, incentiva
 
 ---
 
-## 🎯 Objetivo do Jogo
+## Objetivo do Jogo
 - Responder corretamente perguntas sobre meio ambiente
 - Acumular pontos conforme o nível das perguntas
 - Completar o desafio final de **separação correta do lixo**
 
 ---
 
-## 🕹️ Como Jogar
+## Como Jogar
 1. Clique em **Iniciar**
 2. Responda às perguntas do quiz
 3. Cada pergunta correta gera pontos
 4. Ao final do quiz, participe do **Desafio da Reciclagem**
 5. Arraste cada item para a lixeira correta
 
----
 
-## 🎮 Mecânicas do Jogo
+## Mecânicas do Jogo
 - Sistema de **níveis** (1, 2 e 3)
 - Pontuação progressiva:
   - Nível 1 → 5 pontos
@@ -31,9 +30,8 @@ O objetivo do jogo é ensinar conceitos ambientais de forma divertida, incentiva
 - Desafio de **arrastar e soltar (drag and drop)**
 - Penalidade de pontos ao errar a lixeira
 
----
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **HTML**  
   Estrutura das telas (menu, quiz, instruções e reciclagem)
 
@@ -43,9 +41,8 @@ O objetivo do jogo é ensinar conceitos ambientais de forma divertida, incentiva
 - **JavaScript**  
   Lógica do jogo, controle de níveis, pontuação, eventos e manipulação do DOM
 
----
 
-## 📚 O que eu aprendi com esse projeto
+## O que eu aprendi com esse projeto
 
 Com o desenvolvimento do Eco Quiz, aprendi:
 
@@ -59,9 +56,8 @@ Com o desenvolvimento do Eco Quiz, aprendi:
 - Organizar melhor o código separando responsabilidades
 - Aplicar lógica condicional para feedbacks e pontuação
 
----
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 
 
