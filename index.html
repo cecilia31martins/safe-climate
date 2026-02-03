@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>Eco Quiz</title>
+ 
+<link rel="stylesheet" href="style.css">
+ 
+</head>
+ 
+<body>
+<div class="wrap">
+ 
+  <section id="menu" class="screen active">
+    <h1>🌱 ECO QUIZ 🌱</h1>
+    <button id="startBtn">Iniciar</button>
+    <button onclick="show('how')">Como Jogar</button>
+  </section>
+ 
+
+  <section id="how" class="screen">
+    <h2>📘 Instruções</h2>
+    <p>Responda o quiz e depois arraste o lixo para a lixeira correta!</p>
+    <button onclick="show('menu')">Voltar</button>
+  </section>
+
+  <section id="quiz" class="screen">
+    <div class="quiz-top">
+      <span id="levelLabel">Nível 1</span>
+      <span id="progressLabel">Pergunta 1/15</span>
+      <span>Pontos: <span id="score">0</span></span>
+    </div>
+ 
+    <div class="question">
+      <div id="sprite"></div>
+      <div class="qhead">
+        <h3 id="qtext">Pergunta aqui</h3>
+      </div>
+      <div class="answers" id="answers"></div>
+      <div id="feedback"></div>
+    </div>
+  </section>
+ 
+  <section id="recycle" class="screen">
+    <h2>♻ Desafio da Reciclagem</h2>
+    <p>Arraste cada item até a lixeira correta!</p>
+ 
+    <div class="itemsArea" id="itemsArea"></div>
+ 
+    <div class="bins">
+      <div class="bin-card" data-type="papel" style="background:#1e6ff2">
+        📄<div class="bin-label">PAPEL</div>
+      </div>
+      <div class="bin-card" data-type="plastico" style="background:#ef4444">
+        🥤<div class="bin-label">PLÁSTICO</div>
+      </div>
+      <div class="bin-card" data-type="vidro" style="background:#0cb981">
+        🍾<div class="bin-label">VIDRO</div>
+      </div>
+      <div class="bin-card" data-type="organico" style="background:#8b4513">
+        🍌<div class="bin-label">ORGÂNICO</div>
+      </div>
+    </div>
+ 
+    <p id="recycleFeedback"></p>
+  </section>
+ 
+</div>
+ 
+
+<script src="script.js"></script>
+ 
+</body>
+</html>
