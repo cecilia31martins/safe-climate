@@ -4,14 +4,12 @@ O **Eco Quiz** é um jogo educativo desenvolvido em **HTML, CSS e JavaScript**, 
 
 O objetivo do jogo é ensinar conceitos ambientais de forma divertida, incentivando boas práticas e a conscientização ecológica.
 
----
 
 ## Objetivo do Jogo
 - Responder corretamente perguntas sobre meio ambiente
 - Acumular pontos conforme o nível das perguntas
 - Completar o desafio final de **separação correta do lixo**
 
----
 
 ## Como Jogar
 1. Clique em **Iniciar**
@@ -61,5 +59,5 @@ Com o desenvolvimento do Eco Quiz, aprendi:
 
 
 
-## 🚀 Considerações Finais
+## Considerações Finais
 O Eco Quiz foi essencial para reforçar meus conhecimentos em JavaScript e entender melhor como criar jogos educativos para a web, utilizando lógica, interação e organização de código.
